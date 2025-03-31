@@ -1,9 +1,10 @@
-#создай тут фоторедактор Easy Editor!
+import sys
 import os
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QHBoxLayout, QPushButton, QListWidget, QFileDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QPushButton, QFileDialog, QHBoxLayout, QListWidget
 from PyQt5.QtGui import QPixmap
 from PIL import Image, ImageFilter
+from io import BytesIO
 
 workdir = ""
 
